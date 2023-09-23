@@ -13,10 +13,11 @@ function App() {
   };
 
   return (
-    <div>
+    //Shorthand of React.Fragment is <> </>
+    <React.Fragment>
       <AddUser onAddUser={addUserHandler} />
       <UsersList users={usersList} />
-    </div>
+    </React.Fragment>
   );
 }
 
